@@ -1,0 +1,225 @@
+/* ESSENCIAL */
+a img{ border:0 none; }
+
+.clearfix{ display: block; content: ""; clear: both; }
+
+body{ margin:0px; font-family: 'Open Sans', sans-serif !important; overflow-x:hidden; }
+
+a{  text-decoration:none; }
+
+a:hover{  text-decoration:underline; }
+
+.separador{ clear:both; }
+
+.fundoContainerBloco{ width:100%; height:auto; }
+
+.containerBloco{ max-width:1073px; width:100%; margin:0 auto; }
+
+button:hover,input[type=button]:hover{ opacity:0.8; transition:opacity 1s; }
+
+
+/* CABEÇALHO */
+.fundoCabecalho{ position:fixed; width:100%; top:0; z-index:2; padding-bottom:10px; }
+.fundoCabecalho .bannerCabecalho{ width:100%; height:248px; }
+.fundoCabecalho .bannerCabecalho img{ display:block; margin:0 auto; margin-top:2px; }
+.fundoCabecalho .navbar-brand{ padding: 0px 0px; }
+.fundoCabecalho .navbar-brand img{ margin-top:10px; }
+.fundoCabecalho .navbar-toggle{ padding-right:0px; margin-right:0px; }
+.fundoCabecalho .navbar-toggle .icon-bar{ background-color:#FFF; }
+.fundoCabecalho .navbar-nav{ max-width: 636px; padding-top: 60px; }
+.fundoCabecalho .pointerMenu{ height: 20px; width: 1px; background-color: #FFF; margin: 0 auto; margin-top: 0px; position: absolute; left: 50%; margin-top: -15px; }
+.fundoCabecalho .navbar-nav > li{ height:58px; }
+.fundoCabecalho .navbar-nav > li > a{ background-color: transparent; color:#ffffff; font-size: 13px; height: 85px; line-height: 40px; padding: 10px 24px; }
+.fundoCabecalho .navbar-nav > li > a:hover,.fundoCabecalho .navbar-nav > li > a.active{ color:#FFF !important; text-decoration:none; }
+.fundoCabecalho .nav > li > a:hover, .nav > li > a:focus{ background-color:transparent !important; }
+.fundoCabecalho .navbar-nav > li > a hr{ margin-top:0px; background-color:#e3ac26; height:2px; border:0px; opacity:0; width:1%; }
+.fundoCabecalho .navbar-nav > li > a:hover hr,.fundoCabecalho .navbar-nav > li > a.active hr{ opacity:1; width:80%; transition:width 1s; }
+
+.navbar-nav > li > .dropdown-menu{ opacity:1; }
+.dropdown-menu > li > a{ font-size:12px; }
+
+/* APRESENTACAOTOPO */
+.apresentacaoTopo{ background-image: url('../imagens/banner.jpg'); background-size: cover; background-position: center; }
+.apresentacaoTopo .containerBloco{  }
+.apresentacaoTopo .ilustracao{}
+.apresentacaoTopo .ilustracao img{ width:100%; }
+.apresentacaoTopo .areaForm{}
+.apresentacaoTopo .areaForm img{ max-width: 220px; margin: 0 auto; display: block; margin-top: 50px; }
+.apresentacaoTopo .areaForm h1{ color: #FFF; font-size: 25px; text-align: center; max-width: 380px; margin: 0 auto; margin-top: 50px; font-weight: 700; }
+.apresentacaoTopo .areaForm span{ color: #fb9c07; text-align: center; display: block; margin-top: 10px; font-weight: 800; }
+.apresentacaoTopo .areaCorrespondente{ color: #FFF; max-width: 950px; margin: 0 auto; margin-top: 40px; }
+.apresentacaoTopo .areaCorrespondente label{ margin-left: 20px; position: relative; top: 7px; font-weight: 800; }
+.apresentacaoTopo .areaCorrespondente img{ width: 110px; position: relative; top: 4px; }
+.apresentacaoTopo .formCredito{ background-color: #2b6aa0; max-width: 300px; margin: 0 auto; border-radius: 1em; text-align: center; margin-top: 30px; padding: 0px 22px; padding-bottom: 10px; }
+.apresentacaoTopo .formCredito label{ color: #FFF; text-align: center; display: block; margin: 13px 0px; font-size: 13px; margin-bottom: 18px; }
+.apresentacaoTopo .formCredito input[type=text]::placeholder{ color:#4f4f4f !important; }
+.apresentacaoTopo .formCredito input[type=text],.apresentacaoTopo .formCredito select,.apresentacaoTopo .formCredito textarea{ font-size: 11px; text-transform:uppercase; width: 100%; border: 1px solid #ccc; text-indent: 3px; border-radius: 0.4em; height: 33px; border:0px; margin-bottom: 10px; color: #4f4f4f; }
+.apresentacaoTopo .formCredito input[type=text]{ text-indent:9px; }
+.apresentacaoTopo .formCredito input[type=button]{ background-color: #fb9c07; color: #FFF; display: block; font-size: 12px; width: 245px; margin: 0 auto; padding: 12px 0px; border: 0px; border-radius: 0.6em; position: relative; top: 24px; font-weight: 800; }
+
+
+/* PARCEIROCREDITO */
+.parceiroCredito{ text-align: center; padding: 40px 0px; }
+.parceiroCredito .containerBloco{  }
+.parceiroCredito label{ display:block; color: #2b6aa0; font-size: 20px; }
+.parceiroCredito span{ display:block; color: #fb9c07; font-size: 20px; font-weight: 800; margin-top: 5px; }
+
+/* CREDITOIMOBILIARIO */
+.creditoImobiliario{ background-color: #2b6aa0; text-align:center; padding:30px 0px; }
+.creditoImobiliario .containerBloco{  }
+.creditoImobiliario h2{ color:#FFF; display:block; margin-bottom: 60px; font-weight:700; font-size:30px; }
+.creditoImobiliario .itemCredito{ text-align:center; color:#FFF; max-width:220px; margin:0 auto; }
+.creditoImobiliario .itemCredito img{ display:block; margin:0 auto; margin-bottom:10px; width: 80px; }
+.creditoImobiliario .itemCredito label{ display:block; font-weight: 600; font-size: 16px; }
+.creditoImobiliario .itemCredito label span{ color:#fb9c07; font-weight: 600; }
+.creditoImobiliario .itemCredito p{ margin-top:20px; }
+.creditoImobiliario a{ text-decoration:none !important; }
+.creditoImobiliario button{ background-color: #fb9c07; color: #FFF; display: block; width: 270px; margin: 0 auto; padding: 10px 0px; border: 0px; border-radius: 0.6em; position: relative; top: 45px; font-weight: 800; } 
+
+/* AREAPERGUNTA */
+.areaPergunta{ text-align:center; padding:70px 0px; padding-bottom:70px; }
+.areaPergunta .containerBloco{ max-width:960px; }
+.areaPergunta h2{ font-size:25px; color:#2b6aa0; display:block; margin-bottom:40px; }
+.areaPergunta .itemPergunta{ text-align: center; background-color: #fff4e4; max-width: 400px; margin: 0 auto; padding: 15px 40px; min-height: 212px; }
+.areaPergunta .itemPergunta label{ color:#2b6aa0; margin-bottom:20px; display:block; font-weight: 600; font-size: 18px; }
+.areaPergunta .itemPergunta p{ color:#4a4a4a; }
+.areaPergunta .itemPergunta p span{ color:#fb9c07; font-weight: 600; }
+
+
+/* AREAEMPREENDIMENTOS */
+.areaEmpreendimentos{ text-align:center; background-color:#e5eff7; padding:70px 0px; }
+.areaEmpreendimentos .containerBloco{ max-width: 1200px; }
+.areaEmpreendimentos h2{ color:#113554; display:block; margin-bottom: 0px; font-weight:800; font-size:25px; }
+.areaEmpreendimentos h3{ color:#db9323; display:block; margin-top:0px; margin-bottom: 50px; font-weight:800; font-size:25px; }
+.areaEmpreendimentos h3 span{ font-size:40px; }
+.areaEmpreendimentos .itemEmpreendimento{ background-color: #FFF; padding: 30px 0px; border-radius: 1em; max-width: 350px; margin: 0 auto; margin-bottom: 40px;}
+.areaEmpreendimentos .itemEmpreendimento .logoE{ height: 56px; }
+.areaEmpreendimentos .itemEmpreendimento .ilustracao{ margin-top: 20px; width: 366px; margin-left: -8px; }
+.areaEmpreendimentos .itemEmpreendimento p{ margin-top: 30px; color: #303030; padding:0px 20px; }
+
+.areaEmpreendimentos .itemInfra{ max-width: 190px; margin: 0 auto; margin-bottom: 80px; }
+.areaEmpreendimentos .itemInfra .ilustracaoInfra{ width:50px; float:left; margin-right: 15px; }
+.areaEmpreendimentos .itemInfra img{ width:100%; margin:0 auto; }
+.areaEmpreendimentos .itemInfra.largeIcon img{ width:40px; }
+.areaEmpreendimentos .itemInfra label{ font-size: 13px; text-align: left; float: left; position: relative; top: 5px; }
+.areaEmpreendimentos .itemInfra.largeIcon label{ top:8px; }
+
+
+
+/* AREACONSTRUTORAS */
+.areaConstrutoras{ text-align: center; padding: 40px 0px; }
+.areaConstrutoras .containerBloco{  }
+.areaConstrutoras h2{ display:block; color: #2b6aa0; font-size: 25px; }
+.areaConstrutoras h3{ display:block; color: #da9222; font-size: 25px; margin-top: 10px; margin-bottom:40px; font-weight:600; }
+
+/* AREAPASSOS */
+.areaPassos{ background-image:url('../imagens/passos/fundo.jpg'); background-size:cover; background-position:center; padding:50px 0px; text-align: center; color: #FFF; }
+.areaPassos .containerBloco{  }
+.areaPassos img{ width:100%; }
+.areaPassos h2{ font-weight: 800; font-size: 40px; } 
+.areaPassos label{ color: #113554; display: block; margin-top: 25px; font-weight: 800; font-size: 16px; }
+.areaPassos ul{ margin-top: 20px; }
+.areaPassos ul li{ list-style: none; margin-bottom: 15px; }
+.areaPassos ul li p{ color: #5c3b08; font-size: 12px; margin-top: 10px; }
+.areaPassos ul li strong{}
+.areaPassos a{ text-decoration:none !important; }
+.areaPassos button{ background-color: #113554; color: #FFF; display: block; width: 270px; margin: 0 auto; padding: 10px 0px; border: 0px; border-radius: 0.6em; margin-top:40px; font-weight: 600; }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0b214a !important;
+  opacity: 1; /* Firefox */
+}
+
+
+/* RODAPĆ‰ */
+.rodape{ height:auto; background-color:#252525; color:#888888; padding: 5px 0px; font-size: 12px; text-align:center; padding:25px 0px; }
+
+.rodape .containerBloco{  }
+
+
+
+/* DESKTOP */	
+@media (min-width: 768px) {
+   
+}
+
+
+@media (min-width: 1370px) {
+	
+}
+
+@media (min-width: 1680px) {
+	
+}
+
+@media (min-width: 1900px) {
+	
+}
+
+@media (min-width: 2000px) {
+	
+}
+
+@media (max-width: 1023px) {
+	
+}
+
+
+/* MOBILE */	
+@media (max-width: 992px) {	  
+  
+  /* APRESENTACAOTOPO */
+  .apresentacaoTopo .ilustracao img { width: 100%; max-width: 300px; margin: 0 auto; display: block; padding-top: 30px; }
+  
+  /* PASSOS */  
+  .areaPassos img { max-width: 270px; }
+}
+
+@media (max-width: 768px) {	
+  /* CABEĆ‡ALHO */
+  .fundoCabecalho .navbar-collapse{ position: absolute !important; z-index: 10001; background-color: rgb(0, 0, 0); width: 100%; opacity:0.9; left:0px; margin-top:10px; }	
+  .fundoCabecalho .navbar-nav{ float:none; padding-top: 20px; }
+  .fundoCabecalho .navbar-brand img { height: 30px; z-index: 10; position: relative; }
+  .fundoCabecalho .navbar-brand{ padding: 5px 0px; }
+  .fundoCabecalho .nav > li{ text-align:left; height:auto; }
+  .fundoCabecalho .nav > li > a{ height:auto; line-height:normal; color:#FFF; }
+  .fundoCabecalho .nav > li > a hr{ opacity:0 !important; }
+  .fundoCabecalho .nav > li > a:hover{ color:#FFF; text-decoration:none; }
+  .containerBloco{ width: 95%; margin: 0 auto; }  
+  .navbar-header { padding: 0px 15px; }
+  .navbar-toggle{ float:left !important; }
+  .navbar-brand{ float:left; margin-left:40px; }
+  
+  /* CORRESPONDENTE */
+  .apresentacaoTopo .areaCorrespondente img { width: 70px; }
+  .apresentacaoTopo .areaCorrespondente label { margin-left: 15px; font-size: 13px; }
+  
+  /* CREDITOIMOBILIARIO */
+  .creditoImobiliario .itemCredito{ margin-bottom:30px; }
+  
+  /* PARCEIROCREDITO */
+  .parceiroCredito label,.parceiroCredito span { font-size: 16px; line-height: 20px; margin-bottom: 10px; }
+  
+  /* EMPREENDIMENTOS */
+  .areaEmpreendimentos{ padding:30px 0px; }
+  .areaEmpreendimentos h2,.areaPergunta h2,.creditoImobiliario h2,.apresentacaoTopo .areaForm h1,.areaConstrutoras h2,.areaConstrutoras h3{ font-size:20px; }
+  
+  /* PERGUNTA */
+  .areaPergunta{ padding-top:40px; padding-bottom:30px; }
+  .areaPergunta .itemPergunta{ margin-bottom:30px; }  
+  
+  /* PASSOS */
+  .areaPassos h2{ font-size:30px; }
+  .areaPassos ul{ padding:0; }  
+  
+  /* INFRA */
+  .areaEmpreendimentos .itemInfra img { margin-right: 5px; float: left; width: 35px; }
+  .areaEmpreendimentos .itemInfra label { font-size: 12px; text-align: left; float: left; }
+  
+  /* RODAPE */
+  .rodape{ height:auto; padding: 20px 0px; text-align:center; font-size: 11px; }  
+}
+
+@media (max-width: 400px) {	
+  .areaEmpreendimentos .itemEmpreendimento .ilustracao{ width:330px; }
+}  
